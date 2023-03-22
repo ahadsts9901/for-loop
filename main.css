@@ -27,6 +27,21 @@ header h1{
     border-radius: 30px;
 }
 
+.bold{
+    font-weight: bold;
+}
+
+.urdu{
+    font-family: 'Noto Nastaliq Urdu';
+    color: #000;
+    line-height: 1em;
+}
+
+.urduheading{
+    font-family: 'Noto Nastaliq Urdu';
+    color: #000;
+}
+
 content, result{
     display: flex;
     flex-direction: column;
@@ -65,7 +80,7 @@ input{
     border-radius: 20px;
 }
 
-.big{
+.result{
     background-color: #dadada;
     color: #000;
     font-weight: bold;
