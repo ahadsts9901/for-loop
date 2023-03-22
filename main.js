@@ -13,7 +13,7 @@ function ForLoop(event){
 
             console.log(i++)
 
-            document.getElementById('result').innerHTML = i
+            document.getElementById('result').innerHTML = i-1
         }
 
         
