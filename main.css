@@ -89,6 +89,11 @@ input{
     padding: 0.5em;
     border: 0px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
 }
 
 .submit{
