@@ -19,3 +19,6 @@ console.log("mumbes", i)
 }
 
 document.getElementById('result').innerHTML = result
+
+
+}
