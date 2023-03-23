@@ -91,7 +91,7 @@ input{
     padding: 2em 1em;
     border: 0px;
     border-radius: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
 .submit{
