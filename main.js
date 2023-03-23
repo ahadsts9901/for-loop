@@ -8,17 +8,22 @@ function ForLoop(event){
         Value1 = Number(Value1)
     let Value2 = document.getElementById('value2').value
         Value2 = Number(Value2)
+    let difference = document.getElementById('difference').value
+        difference = Number(difference)
     let result = ""
 
-for (let i = Value1 ; i <= Value2 ; i++){
+    let br = document.getElementById('break')
 
-result += i + ""
-
-console.log("mumbes", i)
-
-}
-
-document.getElementById('result').innerHTML = result
+        for (let i = Value1; i <= Value2; i += difference) {
+            
+            result += i + ", " + ""
 
 
-}
+        }
+
+        document.getElementById('result').innerHTML = result
+        // console.log(result)
+
+
+    }
+

@@ -30,15 +30,15 @@
     
     <script src='main.js'></script>
 </head>
-<body>
+<body class="animate__animated animate__fadeInLeft">
     <header>
         <h1>For Loop</h1>
     </header>
     <content>
         <h2 class="bold">By using this you can</h2>
         <h2 class="bold">Get a number series</h2>
-        <h4 class="urduheading"> زیادہ نمبر لکھنے سے گریز کریں</h4>
-        <h4 class="urduheading">اس سے آپکا سسٹم ہینگ ہو سکتا ہے</h4>
+        <!-- <h4 class="urduheading"> زیادہ نمبر لکھنے سے گریز کریں</h4> -->
+        <!-- <h4 class="urduheading">اس سے آپکا سسٹم ہینگ ہو سکتا ہے</h4> -->
         <userinput>
             <value>
                 <h4>First Number:</h4>
@@ -49,6 +49,13 @@
                 <h4>Second Number:</h4>
                 <p class="urdu">آپکو نمبر سیریز کو کہاں پر ختم کرنا ہے؟</p>
                 <input required type="number" id="value2" class="input" placeholder="Enter The Second Number">
+            </value>
+            <value>
+                <h4>Difference:</h4>
+                <p class="urdu">آپکو نمبروں کے درمیان کتنا فرق چاہیے؟</p>
+                <p class="urdu">اس میں ایک "1" سے کم ویلیو لکھنے سے </p>
+                <p class="urdu">آپکا سسٹم ہینگ ہو سکتا ہے</p>
+                <input required type="number" id="difference" class="input" placeholder="Enter The Difference" value="1" min="1">
             </value>
         </userinput>
         <button onclick="ForLoop(event)" type="submit" class="submit">Get Numbers</button>
