@@ -8,18 +8,14 @@ function ForLoop(event){
         Value1 = Number(Value1)
     let Value2 = document.getElementById('value2').value
         Value2 = Number(Value2)
+    let result = ""
 
-        for (let i = Value1; i <= Value2;) {
+for (let i = Value1 ; i <= Value2 ; i++){
 
-            console.log(i++)
+result += i + ""
 
-            document.getElementById('result').innerHTML = i-1
-        }
+console.log("mumbes", i)
 
-        
+}
 
-    
-
-
-    }
-
+document.getElementById('result').innerHTML = result
